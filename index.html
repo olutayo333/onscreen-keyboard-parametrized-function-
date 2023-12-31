@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnScreen KeyBoard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<script src="onscreen_keyboard_parametized_function.js"></script>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="row mt-5">
+            <div class="row p-3 bg-dark text-white mt-5 mx-auto " style=" width: 100vw;">
+                <p> On-Screen Keyboard </p>
+                <div style="border: 1px solid grey; height: 5vh;" class=" w-100 text-white col-12" id="screen"> </div>
+
+                <div class="col-lg-9 col-12 mt-3 p-2">
+                        
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('Esc')"><small>Esc</small></button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('`')"> ` </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay(1)"> 1 </button>
+                
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay(2)"> 2 </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay(3)"> 3 </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay(4)"> 4 </button>
+                
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay(5)"> 5 </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay(6)"> 6 </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay(7)"> 7 </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay(8)"> 8 </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay(9)"> 9 </button>
+                
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay(0)"> 0 </button>
+                    
+
+                   
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('q')"> q </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('w')"> w </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('e')"> e </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('r')"> r </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('t')"> t </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('y')"> y </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('u')"> u </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('i')"> i </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('o')"> o </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('p')"> p </button>
+                   
+                    
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('a')"> a </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('s')"> s </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('d')"> d </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('f')"> f </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('g')"> g </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('h')"> h </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('j')"> j </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('k')"> k </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('l')"> l </button>
+                    
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay(':')"> ; </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay(`'`)"> ' </button>
+
+                   
+
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('z')"> z </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('x')"> x </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('c')"> c </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('v')"> v </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('b')"> b </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('n')"> n </button>
+                    <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('m')"> m </button>
+                    <button class="col-10 mx-auto btn btn-sm btn-secondary m-1" onclick="clickTapSay(' ')">  </button>
+
+            </div>
+                    <div class="col-lg-3 mt-3 p-2">
+                        <button class="col-2 btn btn-sm btn-secondary m-1" onclick="clickTapSay(' ')"> <small>Tab</small> </button>
+                        <button class="col-2 btn btn-sm btn-secondary m-1" onclick="clickTapSay('-')"> - </button>
+                        <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('=')"> = </button>
+                        <button class="col-3 btn btn-sm btn-secondary m-1" onclick="backSpace()"><small>Backspace </small> </button>
+                        <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay(',')"> , </button>
+                        <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('.')"> . </button>
+                        <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('/')"> / </button>
+                        <button class="col-2 btn btn-sm btn-secondary m-1" onclick="enter()"> <small>Enter</small> </button>
+                        <button class="col-2 btn btn-sm btn-danger m-1" onclick="clearScreen()"><small>Clear</small></button>    
+                        <button class="col-2 btn btn-sm btn-secondary m-1" onclick="transformm()"> <small>caps</small> </button>
+                        <button class="col-2 btn btn-sm btn-secondary m-1" onclick="clickTapSay( '[ ]' )"> [ ] </button>
+                        <button class="col-2 btn btn-sm btn-secondary m-1" onclick="clickTapSay('{ }')"> { } </button>
+                        <button class="col-1 btn btn-sm btn-secondary m-1" onclick="clickTapSay('\'')"> \ </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
